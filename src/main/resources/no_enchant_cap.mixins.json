@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "amymialee.noenchantcap.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "no_enchant_cap.refmap.json",
+  "mixins": [
+    "AnvilScreenHandlerMixin",
+    "EnchantCommandMixin",
+    "EnchantmentMixin"
+  ],
+  "client": [
+    "AnvilScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
